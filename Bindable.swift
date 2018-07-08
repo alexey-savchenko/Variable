@@ -1,3 +1,5 @@
+import UIKit
+
 protocol Bindable {
 	associatedtype T
 	func bind(_ value: T)
